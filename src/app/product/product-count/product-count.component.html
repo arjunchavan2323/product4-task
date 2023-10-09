@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-header">
+         {{product.pName}}
+    </div>
+    <div class="card-body">
+           {{product.pDetail}}
+           and status is 
+           <h1>{{product.psatus}}</h1>
+    </div>
+    <div class="card-footer">
+    <button class="" mat-raised-button color="accent" (click)="onadd(product, all.Inprogress)">Inprogres</button>
+    <button class="mr-6" mat-raised-button color="accent" (click)="onadd(product, all.Dicepatch)">Dicepatch</button>
+    <button class="" mat-raised-button color="accent" (click)="onadd(product, all.Diliver)">Deliver</button>
+
+    </div>
+</div>
